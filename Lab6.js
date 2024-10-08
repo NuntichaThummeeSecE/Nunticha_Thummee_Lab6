@@ -7,7 +7,7 @@ console.log(myString);
 
 //Task2.1
 for (let i = 0; i <= 10; i++) {
-    console.log(i);
+    console.log(`Number ${i}`);
 }
 
 //Task2.2
@@ -18,7 +18,6 @@ for (let i = 1; i < 11; i++) {
         console.log(i);
     }
 }
-
 
 
 //Task3
