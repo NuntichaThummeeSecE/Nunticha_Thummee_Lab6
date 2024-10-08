@@ -13,9 +13,9 @@ for (let i = 0; i <= 10; i++) {
 //Task2.2
 for (let i = 1; i < 11; i++) {
     if (i < 6) {
-        console.log(i * 3);
+        console.log(`multiply number by 3 = `+i * 3);
     } else {
-        console.log(i);
+        console.log(`number without multiply = `+i);
     }
 }
 
