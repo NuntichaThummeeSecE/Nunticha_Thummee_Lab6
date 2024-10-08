@@ -19,17 +19,16 @@ for (let i = 1; i < 11; i++) {
     }
 }
 
-
 //Task3
 function addNumbers(num1, num2) {
     return num1 + num2;
 }
 
-console.log(addNumbers(20, 32));
+console.log(`the result of add number is ${addNumbers(20, 32)}`);
 
 function multiplyNumbers(num1, num2) {
     return num1 * num2;
 }
 
-console.log(multiplyNumbers(12, 26));
+console.log(`the result of multiply number is ${multiplyNumbers(12, 26)}`);
 
