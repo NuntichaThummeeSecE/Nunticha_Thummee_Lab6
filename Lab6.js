@@ -6,16 +6,18 @@ console.log(myNumber);
 console.log(myString);
 
 //Task2.1
+let loopNumber = [];
 for (let i = 0; i <= 10; i++) {
-    console.log(`Number ${i}`);
+    loopNumber.push(i);
 }
+console.log(loopNumber);
 
 //Task2.2
 for (let i = 1; i < 11; i++) {
     if (i < 6) {
-        console.log(`multiply number by 3 = `+i * 3);
+        console.log(`multiply number by 3 = ` + i * 3);
     } else {
-        console.log(`number without multiply = `+i);
+        console.log(`number without multiply = ` + i);
     }
 }
 
